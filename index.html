@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg">
+        <div style="text-align: center; font-size: 40px; background-color: silver; ">SIMPLE CALCULATOR</div>
+        <input id="result" type="text"  style="font-size: 18pt; height: 60px; width:405px; border:2px solid silver ;">
+    
+    <div>
+        <button id="clrbtn" class="clear"  type="button" onclick="Clrbtn()">C</button>
+    </div>
+    <div>
+        <button type="button" onclick="getNumber('7')">7</button>
+        <button type="button"  onclick="getNumber('8')">8</button>
+        <button type="button"  onclick="getNumber('9')">9</button>
+        <button type="button"  onclick="getNumber('/')">/</button>
+    </div>
+    <div>
+        <button type="button"  onclick="getNumber('4')">4</button>
+        <button type="button"  onclick="getNumber('5')">5</button>
+        <button type="button"  onclick="getNumber('6')">6</button>
+        <button type="button"  onclick="getNumber('*')">X</button>
+    </div>
+    <div>
+        <button type="button"  onclick="getNumber('1')">1</button>
+        <button type="button"  onclick="getNumber('2')">2</button>
+        <button type="button"  onclick="getNumber('3')">3</button>
+        <button type="button"  onclick="getNumber('-')">-</button>
+    </div>
+
+    <div>
+        <button type="button"  onclick="getNumber('.')">.</button>
+        <button type="button"  onclick="getNumber('0')">0</button>
+        <button type="button" onclick="getResult()">=</button>
+        <button type="button"  onclick="getNumber('+')">+</button>
+    </div>
+</div>
+    
+</body>
+<script src="app.js"></script>
+</html>
